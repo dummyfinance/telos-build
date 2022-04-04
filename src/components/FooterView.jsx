@@ -1,5 +1,6 @@
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { useNavigate, Link } from "react-router-dom";
+import Pdf from '../assets/docs/telosbuild.pdf';
 
 export default function FooterView(props) {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ export default function FooterView(props) {
     <span className="link link-hover" onClick={() => navigate("about")}><a>About</a></span>   
     <a href="mailto:dummyfinance@protonmail.com" className="link link-hover">Contact</a> 
     <a href="https://t.me/dummy.finance" className="link link-hover">Telegram</a> 
-    <a href="http://localhost:3000/static/media/telosbuild.4793af9aa72811edc503.pdf" className="link link-hover">Press kit</a>
+    <a href= {Pdf} target = "_blank" className="link link-hover">Press kit</a>
   </div> 
   <div>
     <span className="footer-title">Legal</span> 
