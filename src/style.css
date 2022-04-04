@@ -773,7 +773,7 @@ form {
   letter-spacing: 3px;
   cursor: pointer;
   height: 60px;
-  margin-top:-50px;
+  margin-top:-20px;
   -webkit-background-clip: text;
   background:linear-gradient(201deg, rgba(87,26,255,1) 0%, rgba(26,214,255,1) 100%);
   color: white !important;
