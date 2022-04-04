@@ -13,6 +13,7 @@ export default function NavbarView(props) {
       <li onClick={() => navigate("/")}><a>HOME</a></li>
       <li onClick={() => navigate("discover")}><a>DISCOVER</a></li>
       <li onClick={() => navigate("create_project")}><a>CREATE A PROPOSAL</a></li>
+      <li onClick={() => navigate("about")}><a>ABOUT</a></li>
     </ul>
   </div>
 </div>

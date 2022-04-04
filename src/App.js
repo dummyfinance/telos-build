@@ -8,6 +8,7 @@ import ConnectWallet from "./components/ConnectWallet";
 import DiscoverView from "./components/DiscoverView";
 import ProjectView from "./components/ProjectView";
 import ProfileView from "./components/ProfileView";
+import AboutView from "./components/AboutView";
 import { useState } from "react";
 import { ethers } from "ethers";
 import { abi } from "./abi";
@@ -120,6 +121,12 @@ function App() {
             path="project"
             element={checkConnected(
               <ProjectView contract={myContract} userAddress={address} />
+            )}
+          />
+           <Route
+            path="about"
+            element={checkConnected(
+              <AboutView contract={myContract} userAddress={address} />
             )}
           />
         </Routes>
