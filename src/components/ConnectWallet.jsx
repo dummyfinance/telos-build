@@ -9,6 +9,9 @@ export default function ConnectWallet(props) {
                     Connect to Metamask
                 </button>
             </div>
+            <center>
+            <p>(TelosEVM TESTNET)</p>
+            </center>
         </div>
     );
 }

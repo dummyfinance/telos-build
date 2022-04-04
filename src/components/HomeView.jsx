@@ -102,7 +102,7 @@ export default function HomeView(props) {
       <div className="siteStats">
       <br></br>
         <div className="tagLine">
-        The telos of an acorn is to become an oak tree” 
+        "The telos of an acorn is to become an oak tree” 
           <br></br>
           - Aristotle
         </div>
