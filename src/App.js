@@ -76,7 +76,7 @@ function App() {
   // Helps open Metamask
   async function connectToMetamask() {
     try {
-      await window.eth_requestAccounts;
+      await window.ethereum.enable();
       return true;
     } catch (err) {
       return false;
